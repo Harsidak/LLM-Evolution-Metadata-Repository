@@ -3,27 +3,18 @@ This repository contains the metadata corpus, taxonomy files, and scripts used i
 
 It provides reproducible data and code supporting the systematic analysis of Large Language Models (LLMs) from 2017 to 2025, covering architectural evolution, scaling trends, and taxonomy mapping.
 
-📁 data/
+📁 Data/
+LLM-HistoricalData.xlsx
 
- ┣ 📄 metadata.csv                → Core dataset of model attributes
+ ┣ 📄 metadata                   
  
- ┣ 📄 taxonomy.csv                → Architecture-family mapping
+ ┣ 📄 taxonomy                   
  
- ┗ 📄 raw_records.csv             → Initial extracted records
+ ┗ 📄 raw_records             
  
-
-📁 scripts/
-
- ┣ 📄 extract_metadata.py         → Script for metadata cleaning
- 
- ┣ 📄 compute_trends.py           → Generates parameter-growth plots
- 
- ┗ 📄 taxonomy_builder.py         → Rule-based taxonomy construction
- 
-
 📁 figures/
 
- ┣ 📊 timeline_fullwidth.svg      → Historical timeline figure
+ ┣ 📊 timeline_fullwidth     
  
- ┗ 📈 params_vs_year.png          → Parameter scaling plot
+ ┗ 📈 params_vs_year       
  
