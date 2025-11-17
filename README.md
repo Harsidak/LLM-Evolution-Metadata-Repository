@@ -6,15 +6,15 @@ It provides reproducible data and code supporting the systematic analysis of Lar
 📁 Data/
 LLM-HistoricalData.xlsx
 
- ┣ 📄 metadata                   
- 
- ┣ 📄 taxonomy                   
- 
- ┗ 📄 raw_records             
- 
+┣ 📄 metadata
+
+┣ 📄 taxonomy
+
+┗ 📄 raw\_records
+
 📁 figures/
 
- ┣ 📊 timeline_fullwidth     
- 
- ┗ 📈 params_vs_year       
- 
+┣ 📊 timeline\_fullwidth
+
+┗ 📈 params\_vs\_year
+
