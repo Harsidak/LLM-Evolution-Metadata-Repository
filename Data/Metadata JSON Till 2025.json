@@ -1,0 +1,152 @@
+[
+    {
+        "Model’s Name": "GPT-4",
+        "Year": 2023.0,
+        "Architecture Family": "Mixture-of-Experts (Decoder-Only)",
+        "Parameters": "≈ 1 T (est.)",
+        "Pre-Trained Data Scale": "Undisclosed",
+        "Modality": "Text + Image",
+        "Reported Compute": "Confidential",
+        "Weight Size (Bytes)": "Undisclosed",
+        "Training Duration": "Confidential",
+        "Hardware Specifications": "Azure AI Supercluster",
+        "Context Learning": "Yes",
+        "Citation": "OpenAI, 2023"
+          
+    },
+    {
+        "Model’s Name": "Claude 3 Opus",
+        "Year": 2024.0,
+        "Architecture Family": "Transformer (Decoder-Only)",
+        "Parameters": "– (>100 B est.)",
+        "Pre-Trained Data Scale": "Proprietary Corpus",
+        "Modality": "Text + Image",
+        "Reported Compute": "Confidential",
+        "Weight Size (Bytes)": "–",
+        "Training Duration": "–",
+        "Hardware Specifications": "Anthropic Cluster v2",
+        "Context Learning": "Yes",
+        "Citation": "Anthropic, 2024"
+          
+    },
+    {
+        "Model’s Name": "Gemini 1.5",
+        "Year": 2024.0,
+        "Architecture Family": "Multimodal Transformer",
+        "Parameters": "1.5 T",
+        "Pre-Trained Data Scale": "Web + Vision + Code Corpus",
+        "Modality": "Text + Image + Code",
+        "Reported Compute": "~1e24 FLOPs",
+        "Weight Size (Bytes)": "~3 TB",
+        "Training Duration": "Confidential",
+        "Hardware Specifications": "TPU v5e Pods",
+        "Context Learning": "Yes",
+        "Citation": "DeepMind, 2024"
+          
+    },
+    {
+        "Model’s Name": "LLaMA 3 70B",
+        "Year": 2024.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "70 B",
+        "Pre-Trained Data Scale": "15 T tokens",
+        "Modality": "Text + Code",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "140 GB",
+        "Training Duration": "–",
+        "Hardware Specifications": "A100 80 GB",
+        "Context Learning": "Yes",
+        "Citation": "Meta AI, 2024"
+          
+    },
+    {
+        "Model’s Name": "DeepSeek-V3",
+        "Year": 2024.0,
+        "Architecture Family": "Mixture-of-Experts",
+        "Parameters": "671 B (37 Active)",
+        "Pre-Trained Data Scale": "14.8 T tokens",
+        "Modality": "Text + Code + Reasoning",
+        "Reported Compute": "2.788 M GPU hrs",
+        "Weight Size (Bytes)": "~1.34 TB",
+        "Training Duration": "–",
+        "Hardware Specifications": "H800 GPU Cluster",
+        "Context Learning": "Yes",
+        "Citation": "DeepSeek Tech, 2024"
+          
+    },
+    {
+        "Model’s Name": "DeepSeek-R1",
+        "Year": 2025.0,
+        "Architecture Family": "Mixture-of-Experts (Reasoning)",
+        "Parameters": "671 B (37 Active)",
+        "Pre-Trained Data Scale": "14.8 T tokens",
+        "Modality": "Text + Reasoning",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "~1.34 TB",
+        "Training Duration": "–",
+        "Hardware Specifications": "Confidential (H800 Cluster)",
+        "Context Learning": "Yes",
+        "Citation": "DeepSeek Tech, 2025"
+          
+    },
+    {
+        "Model’s Name": "GPT-5",
+        "Year": 2025.0,
+        "Architecture Family": "Unified system (fast + reasoning + router)",
+        "Parameters": "Undisclosed",
+        "Pre-Trained Data Scale": "Undisclosed",
+        "Modality": "Text + Image (multimodal)",
+        "Reported Compute": "Undisclosed",
+        "Weight Size (Bytes)": "Undisclosed",
+        "Training Duration": "–",
+        "Hardware Specifications": "Undisclosed",
+        "Context Learning": "Yes",
+        "Citation": "OpenAI, 2025"
+          
+    },
+    {
+        "Model’s Name": "Gemini 2.5 Pro",
+        "Year": 2025.0,
+        "Architecture Family": "Multimodal Transformer / “Thinking” model",
+        "Parameters": "Undisclosed",
+        "Pre-Trained Data Scale": "Undisclosed",
+        "Modality": "Text + Image + Audio/Video",
+        "Reported Compute": "Undisclosed",
+        "Weight Size (Bytes)": "Undisclosed",
+        "Training Duration": "–",
+        "Hardware Specifications": "Undisclosed",
+        "Context Learning": "Yes",
+        "Citation": "DeepMind, 2025"
+          
+    },
+    {
+        "Model’s Name": "Claude 4 (Opus)",
+        "Year": 2025.0,
+        "Architecture Family": "Advanced reasoning model",
+        "Parameters": "Undisclosed",
+        "Pre-Trained Data Scale": "Undisclosed",
+        "Modality": "Text + Image (vision supported)",
+        "Reported Compute": "Undisclosed",
+        "Weight Size (Bytes)": "Undisclosed",
+        "Training Duration": "–",
+        "Hardware Specifications": "Undisclosed",
+        "Context Learning": "Yes",
+        "Citation": "Anthropic, 2025"
+          
+    },
+    {
+        "Model’s Name": "Grok 4",
+        "Year": 2025.0,
+        "Architecture Family": "Agentic multimodal reasoning model",
+        "Parameters": "Undisclosed",
+        "Pre-Trained Data Scale": "Undisclosed",
+        "Modality": "Text + Reasoning + Tool Use",
+        "Reported Compute": "Undisclosed",
+        "Weight Size (Bytes)": "Undisclosed",
+        "Training Duration": "–",
+        "Hardware Specifications": "Undisclosed",
+        "Context Learning": "Yes",
+        "Citation": "Grok 4 (xAI),2025"
+          
+    }
+]

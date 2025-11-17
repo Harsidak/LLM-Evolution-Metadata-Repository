@@ -1,0 +1,242 @@
+[
+    {
+        "Model’s Name": "BERT(Large)",
+        "Year": 2018.0,
+        "Architecture Family": "Encoder-Only",
+        "Parameters": "340 M",
+        "Pre-Trained Data Scale": "3.3B words",
+        "Modality": "Text",
+        "Reported Compute": "~1 PF-day",
+        "Weight Size (Bytes)": "1.3 GB",
+        "Training Duration": "4 days",
+        "Hardware Specifications": "Nvidia A100, V100",
+        "Context Learning": "Yes",
+        "Citation": "Devlin et al., 2018"
+         
+    },
+    {
+        "Model’s Name": "RoBERTa(Large)",
+        "Year": 2019.0,
+        "Architecture Family": "Encoder-Only",
+        "Parameters": "355 M",
+        "Pre-Trained Data Scale": "160 GB Text",
+        "Modality": "Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "1.3 GB",
+        "Training Duration": "≈ 2 weeks",
+        "Hardware Specifications": "6144 TPU v4",
+        "Context Learning": "Yes",
+        "Citation": "Liu et al., 2019"
+         
+    },
+    {
+        "Model’s Name": "GPT-3",
+        "Year": 2020.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "175 B",
+        "Pre-Trained Data Scale": "300 B tokens",
+        "Modality": "Text",
+        "Reported Compute": "3.64 × 10²³ FLOPs",
+        "Weight Size (Bytes)": "~350 GB",
+        "Training Duration": "≈ 1 month",
+        "Hardware Specifications": "Nvidia A100 GPU",
+        "Context Learning": "Yes",
+        "Citation": "Brown et al., 2020"
+         
+    },
+    {
+        "Model’s Name": "T5-11b",
+        "Year": 2020.0,
+        "Architecture Family": "Encoder-Decoder",
+        "Parameters": "11 B",
+        "Pre-Trained Data Scale": "1 T tokens",
+        "Modality": "Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "44 GB",
+        "Training Duration": "–",
+        "Hardware Specifications": "1024 TPU v3",
+        "Context Learning": "Yes",
+        "Citation": "Raffel et al., 2020"
+         
+    },
+    {
+        "Model’s Name": "PaLM",
+        "Year": 2022.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "540 B",
+        "Pre-Trained Data Scale": "780 B tokens",
+        "Modality": "Text + Code",
+        "Reported Compute": "2.56 x 10^24 FLOPs",
+        "Weight Size (Bytes)": "~1.1 TB",
+        "Training Duration": "120 days",
+        "Hardware Specifications": "6144 TPU v4",
+        "Context Learning": "Yes",
+        "Citation": "Chowdhery et al., 2022"
+         
+    },
+    {
+        "Model’s Name": "LaMDA",
+        "Year": 2022.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "137 B",
+        "Pre-Trained Data Scale": "768 B tokens",
+        "Modality": "Dialogue",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "~548 GB",
+        "Training Duration": "57.7 days",
+        "Hardware Specifications": "1024 TPU v3",
+        "Context Learning": "Yes",
+        "Citation": "Thoppilan et al., 2022"
+         
+    },
+    {
+        "Model’s Name": "GLM-130B",
+        "Year": 2022.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "130 B",
+        "Pre-Trained Data Scale": "400 B tokens",
+        "Modality": "Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "520 GB",
+        "Training Duration": "60 days",
+        "Hardware Specifications": "Nvidia A100",
+        "Context Learning": "Yes",
+        "Citation": "Zeng et al., 2022"
+         
+    },
+    {
+        "Model’s Name": "Gopher",
+        "Year": 2021.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "280 B",
+        "Pre-Trained Data Scale": "300 B tokens",
+        "Modality": "Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "1.12 TB",
+        "Training Duration": "920 hrs",
+        "Hardware Specifications": "4096 TPU v3",
+        "Context Learning": "Yes",
+        "Citation": "Rae et al., 2021"
+         
+    },
+    {
+        "Model’s Name": "Jurassic-1",
+        "Year": 2021.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "178 B",
+        "Pre-Trained Data Scale": "300 B tokens",
+        "Modality": "Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "712 GB",
+        "Training Duration": "–",
+        "Hardware Specifications": "800 GPU",
+        "Context Learning": "Yes",
+        "Citation": "Lieber et al., 2021"
+         
+    },
+    {
+        "Model’s Name": "MT-NLG",
+        "Year": 2022.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "530 B",
+        "Pre-Trained Data Scale": "270 B tokens",
+        "Modality": "Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "~2.1 TB",
+        "Training Duration": "–",
+        "Hardware Specifications": "4480 A100 80 GB",
+        "Context Learning": "Yes",
+        "Citation": "Smith et al., 2022"
+         
+    },
+    {
+        "Model’s Name": "LLaMA 2",
+        "Year": 2023.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "70 B",
+        "Pre-Trained Data Scale": "2 T tokens",
+        "Modality": "Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "140 GB",
+        "Training Duration": "21 days",
+        "Hardware Specifications": "2000 A100 80 GB",
+        "Context Learning": "Yes",
+        "Citation": "Touvron et al., 2023"
+         
+    },
+    {
+        "Model’s Name": "Falcon",
+        "Year": 2023.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "40 B",
+        "Pre-Trained Data Scale": "1.3 T tokens",
+        "Modality": "Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "80 GB",
+        "Training Duration": "–",
+        "Hardware Specifications": "Nvidia A100",
+        "Context Learning": "Yes",
+        "Citation": "Penedo et al., 2023"
+         
+    },
+    {
+        "Model’s Name": "Chinchilla",
+        "Year": 2022.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "70 B",
+        "Pre-Trained Data Scale": "1.4 T tokens",
+        "Modality": "Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "140 GB",
+        "Training Duration": "–",
+        "Hardware Specifications": "TPU v4",
+        "Context Learning": "Yes",
+        "Citation": "Hoffmann et al., 2022"
+         
+    },
+    {
+        "Model’s Name": "Galactica",
+        "Year": 2022.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "120 B",
+        "Pre-Trained Data Scale": "106 B tokens",
+        "Modality": "Scientific Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "480 GB",
+        "Training Duration": "–",
+        "Hardware Specifications": "992 A100 80 GB",
+        "Context Learning": "Yes",
+        "Citation": "Taylor et al., 2022"
+         
+    },
+    {
+        "Model’s Name": "BLOOM",
+        "Year": 2022.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "176 B",
+        "Pre-Trained Data Scale": "366 B tokens",
+        "Modality": "Text (Multilingual)",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "704 GB",
+        "Training Duration": "105 days",
+        "Hardware Specifications": "384 A100 80 GB",
+        "Context Learning": "Yes",
+        "Citation": "BigScience, 2022"
+         
+    },
+    {
+        "Model’s Name": "PanGu-α",
+        "Year": 2021.0,
+        "Architecture Family": "Decoder-Only",
+        "Parameters": "207 B",
+        "Pre-Trained Data Scale": "1.1 TB text",
+        "Modality": "Text",
+        "Reported Compute": "–",
+        "Weight Size (Bytes)": "~828 GB",
+        "Training Duration": "–",
+        "Hardware Specifications": "2048 Ascend 910",
+        "Context Learning": "Yes",
+        "Citation": "Zeng et al., 2021"
+
+    }
+]

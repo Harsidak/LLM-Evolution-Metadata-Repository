@@ -1,16 +1,37 @@
 This repository contains the metadata corpus, taxonomy files, and scripts used in the research paper:
+
+
 “From Transformer to GPT-5: Advancements, Limitations, and Future Directions in Large Language Model Design.”
+
+
 
 It provides reproducible data and code supporting the systematic analysis of Large Language Models (LLMs) from 2017 to 2025, covering architectural evolution, scaling trends, and taxonomy mapping.
 
-📁 Data/
+📁 Main/
+
 LLM-HistoricalData.xlsx
 
-┣ 📄 metadata
+📁 Data/
 
-┣ 📄 taxonomy
+┣ 📄 Metadata Till 2021
 
-┗ 📄 raw\_records
+┣ 📄 Metadata Till 2025
+
+┣ 📄 Metadata JSON Till 2021
+
+┗ 📄 Metadata JSON Till 2025
+
+📁 Data/
+
+┣ 📄 Design\_Decisions
+
+┣ 📄 Explanation of Fields
+
+┣ 📄 methodology
+
+┗ 📄 raw sources
+
+
 
 📁 figures/
 
