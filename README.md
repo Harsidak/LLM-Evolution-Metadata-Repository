@@ -11,6 +11,8 @@ It provides reproducible data and code supporting the systematic analysis of Lar
 
 LLM-HistoricalData.xlsx
 
+README.md
+
 📁 Data/
 
 ┣ 📄 Metadata Till 2021
@@ -35,7 +37,17 @@ LLM-HistoricalData.xlsx
 
 📁 figures/
 
-┣ 📊 timeline\_fullwidth
+┣ 📄 parameter\_growth.png
 
-┗ 📈 params\_vs\_year
+┣ 📄 architecture\_distribution.png
+
+┗ 📄 modality\_timeline.png
+
+
+
+📁 Notebook/
+
+┗ 📄 Generate\_Figures.ipynb
+
+
 
